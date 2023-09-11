@@ -1,0 +1,65 @@
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: ["./src/**/*.{js,jsx,ts,tsx}"],
+  theme: {
+    extend: {
+      colors: {
+        "base-white": "#fff",
+        "gray-300": "#d0d5dd",
+        "gray-700": "#344054",
+        "gray-500": "#667085",
+        "gray-900": "#101828",
+        "gray-50": "#f9fafb",
+        "gray-100": "#f2f4f7",
+        "primary-600": "#7f56d9",
+        "gray-400": "#98a2b3",
+        "gray-600": "#475467",
+        "gray-800": "#1d2939",
+        "gray-200": "#eaecf0",
+        mediumslateblue: "#3f5bf6",
+        lavender: "#eaedfe",
+        black: "#000",
+        "foundation-grey-normal": "#272727",
+        ghostwhite: "#f9f5ff",
+        olivedrab: "#899928",
+        whitesmoke: "#f5f5f5",
+        blueviolet: "#9747ff",
+        mediumblue: "#0e31f2",
+        gray1: "rgba(0, 0, 0, 0.4)",
+      },
+      spacing: {},
+      fontFamily: {
+        "text-sm-semibold": "Inter",
+        "work-sans": "'Work Sans'",
+        "text-styles-title1-bold": "Satoshi",
+        inherit: "inherit",
+      },
+      borderRadius: {
+        "181xl": "200px",
+        xl: "20px",
+        "21xl": "40px",
+        "9xl": "28px",
+        "8xs": "5px",
+        "6xs-4": "6.4px",
+      },
+    },
+    fontSize: {
+      sm: "14px",
+      base: "16px",
+      lg: "18px",
+      "11xl": "30px",
+      "5xl": "24px",
+      "xs-2": "11.2px",
+      "smi-7": "12.7px",
+      inherit: "inherit",
+    },
+    screens: {
+      sm: {
+        max: "420px",
+      },
+    },
+  },
+  corePlugins: {
+    preflight: false,
+  },
+};
